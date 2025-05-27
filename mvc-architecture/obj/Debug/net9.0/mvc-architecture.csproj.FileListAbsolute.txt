@@ -230,3 +230,4 @@ C:\Users\Junaid Khan\source\repos\mvc-architecture\mvc-architecture\obj\Debug\ne
 C:\Users\Junaid Khan\source\repos\mvc-architecture\mvc-architecture\obj\Debug\net9.0\mvc-architecture.pdb
 C:\Users\Junaid Khan\source\repos\mvc-architecture\mvc-architecture\obj\Debug\net9.0\mvc-architecture.genruntimeconfig.cache
 C:\Users\Junaid Khan\source\repos\mvc-architecture\mvc-architecture\obj\Debug\net9.0\ref\mvc-architecture.dll
+C:\Users\Junaid Khan\source\repos\mvc-architecture\mvc-architecture\obj\Debug\net9.0\mvc-architecture.sourcelink.json
