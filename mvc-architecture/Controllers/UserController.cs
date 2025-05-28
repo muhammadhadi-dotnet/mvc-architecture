@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Localization;
 using mvc_architecture.Data;
 using mvc_architecture.Models;
 
@@ -8,12 +9,16 @@ namespace mvc_architecture.Controllers
     public class UserController : Controller
     {
         private readonly AppDbContext _context;
-        public UserController(AppDbContext context)
+        private readonly IStringLocalizer<SharedResource> _localizer;
+
+        public UserController(AppDbContext context, IStringLocalizer<SharedResource> localizer)
         {
             _context = context;
+            _localizer = localizer;
         }
         public async Task<IActionResult> Index()
         {
+            
             var users = await _context.users.ToListAsync();
             return View(users);
         }
@@ -58,7 +63,7 @@ namespace mvc_architecture.Controllers
             {
                 _context.users.Update(user);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                    return RedirectToAction(nameof(Index));
             }
             return View(user);
         }

@@ -231,3 +231,13 @@ C:\Users\Junaid Khan\source\repos\mvc-architecture\mvc-architecture\obj\Debug\ne
 C:\Users\Junaid Khan\source\repos\mvc-architecture\mvc-architecture\obj\Debug\net9.0\mvc-architecture.genruntimeconfig.cache
 C:\Users\Junaid Khan\source\repos\mvc-architecture\mvc-architecture\obj\Debug\net9.0\ref\mvc-architecture.dll
 C:\Users\Junaid Khan\source\repos\mvc-architecture\mvc-architecture\obj\Debug\net9.0\mvc-architecture.sourcelink.json
+C:\Users\Junaid Khan\source\repos\mvc-architecture\mvc-architecture\bin\Debug\net9.0\ar\mvc-architecture.resources.dll
+C:\Users\Junaid Khan\source\repos\mvc-architecture\mvc-architecture\obj\Debug\net9.0\mvc_architecture.Resources.SharedResource.ar.resources
+C:\Users\Junaid Khan\source\repos\mvc-architecture\mvc-architecture\obj\Debug\net9.0\mvc-architecture.csproj.GenerateResource.cache
+C:\Users\Junaid Khan\source\repos\mvc-architecture\mvc-architecture\obj\Debug\net9.0\ar\mvc-architecture.resources.dll
+C:\Users\Junaid Khan\source\repos\mvc-architecture\mvc-architecture\bin\Debug\net9.0\Microsoft.Extensions.Localization.dll
+C:\Users\Junaid Khan\source\repos\mvc-architecture\mvc-architecture\bin\Debug\net9.0\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\Junaid Khan\source\repos\mvc-architecture\mvc-architecture\bin\Debug\net9.0\en\mvc-architecture.resources.dll
+C:\Users\Junaid Khan\source\repos\mvc-architecture\mvc-architecture\obj\Debug\net9.0\mvc_architecture.Resources.SharedResource.en.resources
+C:\Users\Junaid Khan\source\repos\mvc-architecture\mvc-architecture\obj\Debug\net9.0\en\mvc-architecture.resources.dll
+C:\Users\Junaid Khan\source\repos\mvc-architecture\mvc-architecture\obj\Debug\net9.0\mvc_architecture.Resources.SharedResource.resources

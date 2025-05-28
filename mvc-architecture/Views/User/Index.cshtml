@@ -1,13 +1,14 @@
-﻿@model List<User>;
+﻿@using Microsoft.Extensions.Localization
+@model List<User>;
+@inject IStringLocalizer<SharedResource> Localizer
 @{
 }
-
 <div class="row">
     <div class="col-6">
-        <h3>User List</h3>
+        <h3>@Localizer["User List"]</h3>
     </div>
      <div class="col-6 text-end">
-        <a asp-controller="User" asp-action="Create" class="btn btn-primary mb-3">Add User</a>
+        <a asp-controller="User" asp-action="Create" class="btn btn-primary mb-3">@Localizer["Add User"]</a>
     </div>
     
         <table class="table table-striped">

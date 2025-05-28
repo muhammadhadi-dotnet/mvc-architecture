@@ -1,5 +1,6 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+﻿@using System.Globalization
+<!DOCTYPE html>
+<html dir="@((CultureInfo.CurrentUICulture.TwoLetterISOLanguageName == "ar") ? "rtl" : "ltr")">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -30,6 +31,14 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="Index">UserList</a>
                         </li>
                     </ul>
+                    <div text-end>
+                        <form id="cultureForm" asp-controller="Home" asp-action="SetLanguage" method="post">
+                            <select name="culture" onchange="document.getElementById('cultureForm').submit();" class="form-select">
+                                <option value="en" selected="@((CultureInfo.CurrentUICulture.Name == "en") ? "selected" : null)">English</option>
+                                <option value="ar" selected="@((CultureInfo.CurrentUICulture.Name == "ar") ? "selected" : null)">العربية</option>
+                            </select>
+                        </form>
+                    </div>
                 </div>
             </div>
         </nav>
